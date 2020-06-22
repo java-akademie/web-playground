@@ -1,0 +1,17 @@
+body {
+    background-color: powderblue;
+}
+
+.eingabe {
+    width: 80px;
+}
+
+.cont {
+    background-color: lightblue;
+    color: indigo;
+    border: 1px solid;
+    padding: 10px;
+    margin: 20px auto;
+    width: 160px;
+
+}

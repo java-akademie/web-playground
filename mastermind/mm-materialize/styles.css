@@ -1,0 +1,11 @@
+body {
+    background-color: powderblue;
+}
+
+.cont {
+    background-color: lightblue;
+    border: 1px solid;
+    width: 220px;
+    margin: 40px auto;
+    padding: 10px;
+}

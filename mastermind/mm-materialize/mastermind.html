@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mmm</title>
+    <script src="../js/mastermind.js"></script>
+    <link rel="stylesheet" href="./styles.css"/>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"/>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href=
+            "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+</head>
+
+<body>
+
+<div class="cont indigo-text">
+    <div class="mastermind container">
+        <h5 class="indigo-text">Mastermind</h5>
+        <p>Materialize</p>
+
+        <code><span id="konsole"></span></code>
+        <br/>
+        <div class="row">
+            <div class="field">
+                <label for="eingabe">Raten Sie</label>
+                <input class="input-field col s6 eingabe" id="eingabe" disabled="disabled">
+            </div>
+            <button id="rechnen" disabled="disabled" onclick="rechnen()">
+                Check
+            </button>
+        </div>
+
+
+        <div class="row">
+            <button id="start" onclick="start() ">Start</button>
+            <button id="stopp" disabled="disabled" onclick="stopp()">Stopp</button>
+            <button id="help" disabled="disabled" onclick="help()">Help</button>
+        </div>
+
+        <span id="message"></span>
+        <br/>
+    </div>
+</div>
+
+</body>
+
+</html>
